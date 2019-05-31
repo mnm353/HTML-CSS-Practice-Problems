@@ -19,7 +19,7 @@
 
 .menu {
     width: 100px;
-    height: 40px;
+    height: 80px;
     display: inline-block;
     position: absolute;
     left: 10px;
@@ -29,8 +29,11 @@
 
 .menu-icon {
     width: 60%;
-    background-image: url('level-3/img/icons/MENU.png');
-    background-repeat: no-repeat;
+    background-image: url("../img/icons/MENU.png");
+    height: 200px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
     
     
     
@@ -47,8 +50,13 @@
 
 .logo-icon {
     width: 75%;
-    background-image: url("./HTML-CSS-Practice-Problems/base/level-3/img/icons/dev-shop.png");
+    background-image: url("../img/icons/dev-shop.png");
+    height: 200px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
 }
+
 
 .sign-in {
     width: 100px;
@@ -57,11 +65,17 @@
     position: absolute;
     right: 10px;
     top: 30px;
+    /* background-image: url("level-3/img/icons/Sign_In.png"); */
 
 }
 
 .sign-in-icon {
+    background-image: url("../img/icons/Sign_In.png");
     width: 60%;
+    height: 200px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
 }
 
 
@@ -76,6 +90,11 @@
 
 
 .shop-icon {
-    width: 350px;
+    /* width: 250px; */
+    background-image: url("../img/icons/Shop_Deals.png");
+    /* height: max-content; */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-origin: border-box;
 }
-
