@@ -90,10 +90,10 @@
 
 
 .shop-icon {
-    /* width: 250px; */
+    width: 250px;
     background-image: url("../img/icons/Shop_Deals.png");
-    /* height: max-content; */
-    background-position: center; 
+    height: max-content;
+    background-position: top center; 
     background-repeat: no-repeat; 
     background-size: cover;
     background-origin: border-box;
